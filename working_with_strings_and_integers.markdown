@@ -1,4 +1,4 @@
-# Working with Strings and Integers
+# Working with Strings and Integers  - Phyllis Hugunien
 
 Complete the following exercises to solidify your understandings of strings and integers.
 
@@ -16,9 +16,13 @@ l = "Last"
 Use *only* the "string concatenation" technique to complete the following:
 
 1. What code can you write to output the string `"FirstLast"`?
+f + l
 2. What code can you write to output the string `"LastFirst"`?
+l + f
 3. What code can you write to output the string `"First Last"`?
+f + "  "  + l
 4. What code can you write to output the string `"Last First Last First"`?
+l +  " " + f +  " " + l + " " +  f
 
 Then repeat 1-4 using only the "string interpolation" technique.
 
